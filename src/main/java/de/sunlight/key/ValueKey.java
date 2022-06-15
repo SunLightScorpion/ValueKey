@@ -34,7 +34,7 @@ public class ValueKey <T extends String>{
         }
     }
 
-    public static Object getData(String path) {
+    public Object getData(String path) {
         try {
             File file = new File(path);
             BufferedReader reader = new BufferedReader(new FileReader(file));
